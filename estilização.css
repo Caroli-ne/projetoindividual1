@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,body{
+height: 100%;
+overflow-y:hidden;
+overflow-x: hidden;
+
+}
+header {
+padding: 15px 0;
+height: 200px;
+}
+/*caixinha que engloba tudo*/
+.box{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 0 3%;
+    margin:0 auto;
+}
+/*conf. do menu*/
+.menu{
+    text-align: right;
+    width:70%;
+}
+/*conf. das ancoras*/
+.menu a {
+    margin-right: 5px;
+    text-decoration: none;
+    color:black;
+}
+.menu a:hover{
+    color: blue;
+    top:-2px;
+    box-shadow:0 2px 2px #dfdada;
+    transition: all .2s ease-in-out;
+    
+}
+section.about {
+    height: calc(100% - 200px);
+    position: relative;
+}
+/*círculo vermelho*/
+.extra {
+    position:absolute;
+    bottom:-200px;
+    right: -200px;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-color:rgb(202, 43, 43);
+}
+/*círculo azul*/
+.extra2 {
+    position:absolute;
+    top: -200px;
+    left:-200px;
+    height: 390px;
+    width:390px;
+    border-radius:50%;
+    background-color: navy;
+
+}
+/*minhas fotos*/
+.img{
+    
+    border-top-left-radius:50%;
+    border-top-right-radius:50%; 
+    border-bottom-left-radius: 50%; 
+    border-bottom-right-radius: 50%;
+}
+/*cabeçalho de todos os arquivos*/
+.nome {
+    width:25%;
+    text-align: center;
+    font-size: 35px;
+}
+/*texto sobre mim, a estilização das bordas também foi utilizada no formulário de contato e no texto de hobbies*/
+.sobre-mim{
+    margin-bottom:200px ;
+
+}
+.sobre-mim h1{
+    font-size: 40px;
+}
+.sobre-mim p {
+    max-width: 500px;
+
+}
+
+textarea {
+    margin: 15px 0;
+    width: 250px;
+    height: 100px
+}
+/*botao enviar da página contatos*/
+.submit {
+    border-radius: 50px;
+    width: 75px;
+    background-color: navy;
+    color: white;
+}
+.submit:hover{
+    background-color: white;
+    color:navy;
+}
+/*imagem do canto esquerdo inferior da aba hobbies*/
+.img2 {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    border-radius: 50%;
+
+
+}
