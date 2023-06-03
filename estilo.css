@@ -115,9 +115,9 @@ textarea {
     left: -50px;
     border-radius: 50%;
 }
-.container {
-width: 230px;
-display: flex;
-flex-direction: column;
-padding: 0 15px 0 15px;
+    .container {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
 }
