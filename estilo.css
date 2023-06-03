@@ -81,14 +81,14 @@ section.about {
     font-size: 35px;
 }
 /*texto sobre mim, a estilização das bordas também foi utilizada no formulário de contato e no texto de hobbies*/
-.sobre-mim{
+.conteudo{
     margin-bottom:200px ;
 
 }
-.sobre-mim h1{
+.conteudo h1{
     font-size: 40px;
 }
-.sobre-mim p {
+.conteudo p {
     max-width: 500px;
 
 }
