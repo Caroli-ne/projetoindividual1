@@ -25,8 +25,9 @@ height: 200px;
 }
 /*conf. do menu*/
 .menu{
-    text-align: right;
-    width:70%;
+    text-align: left;
+    width:100%;
+    font-size: 20px;
 }
 /*conf. das ancoras*/
 .menu a {
@@ -85,10 +86,11 @@ main.about {
     margin-bottom:200px ;
 }
 .conteudo h1{
-    font-size: 40px;
+    font-size: 60px;
 }
 .conteudo p {
-    max-width: 500px;
+    max-width: 600px;
+    font-size: 30px;
 
 }
 
@@ -101,12 +103,12 @@ textarea {
 .submit {
     border-radius: 50px;
     width: 75px;
-    background-color: navy;
+    background-color: rgb(202, 43, 43);
     color: white;
 }
 .submit:hover{
     background-color: white;
-    color:navy;
+    color: rgb(202, 43, 43);
 }
 /*imagem do canto esquerdo inferior da aba hobbies*/
 .img2 {
@@ -116,8 +118,21 @@ textarea {
     border-radius: 50%;
 }
     .container {
-    width: 230px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 15px 0 15px;
+        text-align: left;
+        width: 230px;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 0 15px;
+        background-color: navy;
+        border-radius: 30px;
+        color: white;
+    
+}       
+.container h1 {
+    font-size: 30px;
+}
+.textbox {
+    border-radius: 20px;
+    width: 200px;
 }
