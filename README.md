@@ -1,3 +1,1 @@
-# projetoindividual1
-Projeto "Quem não é visto não é lembrado".
-Os comentários principais desse projeto estão no INDEX, visto que é válido para as páginas em anexo, pois são basicamente cópias do arquivo. Tomei essa decisão por querer manter a mesma identidade visual, fazendo apenas alterações pequenas, como adicionar e/ou trocar imagens, trocar o texto etc. Também utilizei flexbox para poder posicionar as coisas de forma desejada (o texto central, o formulário, o círculo vermelho, etc...). Utilizei as cores vermelho e azul-marinho por serem cores que eu gosto e combinariam bem com as imagens, as formas circulares num fundo branco foi por achar que outra cor de background ficaria cansativo aos olhos, e eu queria criar algo mais "limpo", coisa que as formas circulares proporcionaram sem me parecer ficar pesado. 
+
